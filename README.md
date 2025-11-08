@@ -15,6 +15,7 @@ nombres descriptivos, funciones pequeñas, evitar duplicación y comentarios inn
 ✔ Documentación y comentarios
 	•	Documentar funciones y módulos mediante docstrings claros.
 	•	Usar comentarios únicamente para explicar intención, no código evidente.
+	
 ✔ Metodología de desarrollo
 	•	Se recomienda trabajar bajo un enfoque ágil (Scrum o Kanban).
 	•	Mantener una Definición de Hecho y tableros de tareas visibles.

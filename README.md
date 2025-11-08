@@ -2,6 +2,33 @@
 
 Este repositorio contiene un sistema de nómina desarrollado en Python con FastAPI. El propósito del proyecto es académico: servir como ejemplo didáctico de diseño de API REST, cálculo de nómina y organización de un proyecto web con buenas prácticas.
 
+## Buenas prácticas, metodología y control de versiones
+
+El desarrollo del proyecto se realizo siguiendo estándares profesionales, tanto en la estructura del código como en el proceso de versión y documentación:
+
+✔ Principios de diseño
+	•	Aplicar principios SOLID para construir componentes mantenibles y escalables.
+	•	Escribir código limpio y legible:
+nombres descriptivos, funciones pequeñas, evitar duplicación y comentarios innecesarios.
+	•	Realizar refactorización continua para mejorar la estructura sin modificar el comportamiento externo.
+
+✔ Documentación y comentarios
+	•	Documentar funciones y módulos mediante docstrings claros.
+	•	Usar comentarios únicamente para explicar intención, no código evidente.
+✔ Metodología de desarrollo
+	•	Se recomienda trabajar bajo un enfoque ágil (Scrum o Kanban).
+	•	Mantener una Definición de Hecho y tableros de tareas visibles.
+
+✔ Control de versiones (Git / GitHub)
+	•	El proyecto debe estar versionado en GitHub y reflejar el control del CIPA.
+	•	Flujo recomendado:
+	•	Rama main: versión estable.
+	•	Rama develop: integración.
+	•	Ramas de trabajo: feature/*, fix/*, hotfix/*.
+	•	Commits claros preferiblemente estilo Conventional Commits.
+
+Recomendado: Implementar CI con GitHub Actions para ejecutar pruebas y linters automáticamente.
+
 ---
 
 ## Tecnologías y dependencias
@@ -105,7 +132,7 @@ python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
 
 FastAPI ofrece Swagger UI. En este proyecto la URL de la documentación (Swagger) está configurada en `app/main.py` como:
 
-- Swagger UI: `http://127.0.0.1:8000/api/docs`
+### - Swagger UI: `http://127.0.0.1:8000/api/docs`
 
 Abre esa URL en tu navegador después de iniciar el servidor para ver y probar los endpoints desde la interfaz.
 
